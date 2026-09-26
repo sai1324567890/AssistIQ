@@ -3,7 +3,7 @@ import uuid
 
 import streamlit as st
 
-from assistant import TrainingAssistant
+from src.assistant import TrainingAssistant
 from src import config, analytics, ui, voice
 
 st.set_page_config(
